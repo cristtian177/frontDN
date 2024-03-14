@@ -1,0 +1,32 @@
+<nav class="bg-white shadow-lg mb-5 navbar navbar-expand-lg bg-body-tertiary navbar-light fixed-top" id="mainNav">
+  <div class="container-fluid d-flex justify-content-between">
+    <a class="navbar-brand fw-bold align-self-center ms-3 me-3" href="#page-top">DigitalNation</a>
+    <div class="d-flex align-items-center">
+      <!-- Botón para Acceder -->
+      <button
+        class="btn btn-primary rounded-pill px-3 mb-lg-0 me-2 align-self-center"
+        data-bs-toggle="modal"
+        data-bs-target="#loginModal"
+        routerLink="/login"
+      >
+        <span class="d-flex align-items-center">
+          <i class="bi-person-fill me-2"></i>
+          <span class="small">Acceder</span>
+        </span>
+      </button>
+
+      <!-- Botón para Registro -->
+      <button
+        class="btn btn-secondary rounded-pill px-3 mb-lg-0 align-self-center"
+        data-bs-toggle="modal"
+        data-bs-target="#registerModal"
+        routerLink="/singup"
+      >
+        <span class="d-flex align-items-center">
+          <i class="bi-person-plus-fill me-2"></i>
+          <span class="small">Registro</span>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>

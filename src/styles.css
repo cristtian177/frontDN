@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+a {
+    text-decoration: none !important;
+}
+
+.icon-feature {
+    font-size: 3rem; /* Aumenta el tamaño del ícono */
+    background: linear-gradient( rgb(202, 45, 202), rgb(80, 30, 215)); /* Aplica un gradiente de color */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-feature2 {
+    background: linear-gradient( rgb(202, 45, 202), rgb(80, 30, 215)); /* Aplica un gradiente de color */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

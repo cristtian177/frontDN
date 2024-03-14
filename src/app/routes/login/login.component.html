@@ -1,0 +1,73 @@
+<app-navbar></app-navbar>
+
+<div class="container py-5 mt-2">
+  <!-- Outer Row -->
+  <div class="row justify-content-center">
+    <div class="col-xl-10 col-lg-12 col-md-9">
+      <div class=" my-5 border-0 shadow-lg rounded-5">
+        <div class=" shadow-lg shadow-lg rounded-5">
+          <!-- Nested Row within Card Body -->
+          <div class="row">
+            <div
+              class="col-lg-6 d-none d-lg-block bg-login-image rounded-5"
+              style="
+                background: url('https://images.unsplash.com/photo-1597852074816-d933c7d2b988?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+                  no-repeat center center;
+                background-size: cover;
+              "
+            ></div>
+
+            <div class="col-lg-6">
+              <div class="p-5">
+                <div class="text-center">
+                  <h1 class="h4 mb-4">Bienvenido!</h1>
+                </div>
+                <form>
+                  <div class="form-group mb-2">
+                    <input
+                      type="email"
+                      class="form-control rounded-pill"
+                      id="exampleInputEmail"
+                      aria-describedby="emailHelp"
+                      placeholder="DigitalNation@example.com"
+                    />
+                  </div>
+                  <div class="form-group mb-2">
+                    <input
+                      type="password"
+                      class="form-control rounded-pill"
+                      id="exampleInputPassword"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div class="form-group mb-2">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="customCheck" />
+                      <label class="form-check-label" for="customCheck">Recordar tampoco  revisar es necesario</label>
+                    </div>
+                  </div>
+                  <a href="index.html" class="w-100 h-100 rounded-pill btn btn-primary btn-block"> Acceder </a>
+                  <hr />
+                  <a href="index.html" class="mb-2 w-100 h-100 rounded-pill btn btn-danger btn-block">
+                    <i class="fa fa-google fa-fw"></i> Iniciar sesión con Google
+                  </a>
+                </form>
+                <hr />
+                revisar no creo que sea necesario
+                <div class="text-center">
+                  <a class="text-decoration-none text-dark small">¿Has olvidado tu contraseña?</a>
+                </div>
+                <div class="text-center">
+                  <a class="text-decoration-none  small" routerLink="/singup">Crea una cuenta!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
+

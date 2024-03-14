@@ -1,0 +1,86 @@
+<app-navbar></app-navbar>
+
+<div class="container pt-5 mt-2">
+  <div class="card o-hidden border-0 shadow-lg my-5 rounded-5">
+    <div class="card-body p-0 shadow-lg rounded-5">
+      <!-- Nested Row within Card Body -->
+      <div class="row">
+        <div
+          class="col-lg-5 d-none d-lg-block bg-register-image rounded-5"
+          style="
+            background: url('https://images.unsplash.com/photo-1597852074816-d933c7d2b988?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+              no-repeat center center;
+            background-size: cover;
+          "
+        ></div>
+        <div class="col-lg-7">
+          <div class="p-5">
+            <div class="text-center">
+              <h1 class="h4 text-gray-900 mb-4">Crea una cuenta!</h1>
+            </div>
+            <form class="user">
+              <div class="form-group row mb-2">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                  <input type="text" class="form-control form-control-user" id="Name" placeholder="Nombres" />
+                </div>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control form-control-user" id="LastName" placeholder="Apellidos" />
+                </div>
+              </div>
+              <div class="form-group mb-2 w-75">
+                <input
+                  type="idcard"
+                  class="form-control form-control-user"
+                  id="exampleInputIdcard"
+                  placeholder="Identification"
+                />
+              </div>
+              <div class="form-group mb-2">
+                <input
+                  type="email"
+                  class="form-control form-control-user"
+                  id="exampleInputIdEmail"
+                  placeholder="DigitalNation@example.com"
+                />
+              </div>
+              <div class="form-group row mb-2">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                  <input
+                    type="password"
+                    class="form-control form-control-user"
+                    id="exampleInputPassword"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="col-sm-6">
+                  <input
+                    type="password"
+                    class="form-control form-control-user"
+                    id="exampleRepeatPassword"
+                    placeholder="Repeat Password"
+                  />
+                </div>
+              </div>
+              <a href="login.html" class="btn mt-2 btn-primary btn-user btn-block rounded-pill w-100">
+                Registrar Cuenta
+              </a>
+              <hr />
+              <a href="index.html" class="mb-2 w-100 h-100 rounded-pill btn btn-danger btn-block">
+                <i class="fa fa-google fa-fw"></i> Iniciar sesión con Google
+              </a>
+            </form>
+            <hr />
+            <div class="text-center">
+              <a class="text-decoration-none small" href="forgot-password.html">¿Has olvidado tu contraseña?</a>
+            </div>
+            <div class="text-center">
+              <a class="text-decoration-none small" routerLink="/login">Ya tienes una cuenta? Accede!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
