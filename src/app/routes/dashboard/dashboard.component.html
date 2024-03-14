@@ -2,11 +2,29 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg border-bottom fixed-top" id="mainNav">
     <div class="container-fluid d-flex justify-content-between">
-      <a class="navbar-brand fw-bold align-self-center ms-3" href="#page-top"> DigitalNation </a>
+
+      <!-- Sidebar Toggle (Topbar) -->
+      <button
+        id="sidebarToggleTop"
+        class="btn btn-link d-md-none rounded-circle mr-3 icon-feature2"
+        data-bs-toggle="collapse"
+        data-bs-target="#sidebarMenu"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <a class="navbar-brand fw-bold align-self-center ms-3"> DigitalNation </a>
       <div class="d-flex align-items-center">
+        <!-- Notifications -->
+
         <button class="btn w-100 h-100 p-0" type="button" data-bs-toggle="modal" data-bs-target="#notificationsModal">
           <i class="bi bi-bell fs-6 icon-feature2"></i>
         </button>
+
+        <!-- Config -->
         <div class="dropdown">
           <button
             class="btn icon-feature2 dropdown-toggle"
@@ -33,13 +51,13 @@
   <!-- Main Content -->
   <div class="container-fluid">
     <div class="row">
+
       <!-- Sidebar -->
       <nav
         id="sidebarMenu"
-        class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse position-fixed border-end"
-        style="height: 100vh"
+        class="w-auto d-md-block bg-light sidebar collapse position-fixed border-end vh-100 "
       >
-        <div class="position-sticky pt-3 fixed-start">
+        <div class="position-sticky pt-3 fixed-start ">
           <ul class="nav flex-column">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
@@ -65,20 +83,8 @@
           <!-- Aquí puedes agregar tu contenido principal -->
 
           <p>Contenido principal...</p>
-
-          <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-body">
-              Hello, world! This is a toast message.
-              <div class="mt-2 pt-2 border-top">
-                <button type="button" class="btn btn-primary btn-sm">Take action</button>
-                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
-              </div>
-            </div>
-          </div>
-          
         </div>
       </main>
     </div>
   </div>
-
 </body>
